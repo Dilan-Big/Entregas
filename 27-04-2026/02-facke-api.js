@@ -22,6 +22,13 @@ async function getProducts() {
     console.log("Productos populares:");
     console.log(populares);
 
+    for (let i = 0; i < populares.length; i++) {
+        console.log(
+            populares[i].title,
+            " - ", populares[i].rating.rate,
+            " - ", populares[i].rating.count
+        );
+    }
 }
 
 getProducts();
