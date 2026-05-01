@@ -12,6 +12,6 @@ const sumarArray = (array) => {
     return total;
 };
 
-let resultado = sumarArray([1, 5, 8]);
+let resultado = sumarArray([9, 50, 28]);
 console.log(resultado);
 
