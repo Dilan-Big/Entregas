@@ -14,4 +14,4 @@ const valorPositivo = (valorConsignar) => {
 let resultado = valorPositivo(valorConsignar);
 
 console.log("El valor ingresado fue: " + valorConsignar);
-console.log(resultado);
+console.log(resultado); 

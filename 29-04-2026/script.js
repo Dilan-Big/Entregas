@@ -1,0 +1,1 @@
+const sumarArray = ([a, b, c]) => a + b + c ;  
