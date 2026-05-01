@@ -1,7 +1,7 @@
 // 2. Encontrar el número mayor:
 
 const numeroMayor = (array) => {
-    let mayor = [0];
+    let mayor = array[0];
 
     for (let i = 0; i < array.length; i++){
         if (array[i] > mayor){
