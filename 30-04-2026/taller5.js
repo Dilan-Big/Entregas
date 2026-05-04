@@ -10,4 +10,4 @@ const buscarElemento = (array, elemento) => {
     return false;
 }
 
-console.log(buscarElemento(["rojo", "azul"], "azul"));
+console.log(buscarElemento(["rojo", "azul"], "verde"));
